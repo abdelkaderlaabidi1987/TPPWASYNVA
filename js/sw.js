@@ -1,6 +1,10 @@
-self.addEventListener(type: 'install', listener: evt=>
-                     {console.log(evt);
-                      })
-self.addEventListener(type: 'activate', listener: evt=>
-                      {console.log(evt);
-                      })
+
+                      
+                      
+                      
+ self.addEventListener('install', evt=>{
+    console.log(evt);
+})
+self.addEventListener('activate', evt=>{
+    console.log(evt);
+})
